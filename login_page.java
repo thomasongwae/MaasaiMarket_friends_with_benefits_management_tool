@@ -245,7 +245,7 @@ public class login_page extends javax.swing.JFrame {
                          
                            JFrame frameone1 = new JFrame();
                             //changing the jframe icon 
-                            Image icon1 = Toolkit.getDefaultToolkit().getImage("/mnt/sda7/java_programming/login_form/src/login_form/login_unsuccessfully_drawing.png");
+                            Image icon1 = Toolkit.getDefaultToolkit().getImage("login_unsuccessfully_drawing.png");
                             frameone1.setIconImage(icon1);
                          
                          
@@ -370,7 +370,7 @@ public class login_page extends javax.swing.JFrame {
             
     {
          //set the frame Icon to my customized ICON
-          Image icon = Toolkit.getDefaultToolkit().getImage("/mnt/sda7/java_programming/login_form/src/login_form/login_page_corner_drawing.png");
+          Image icon = Toolkit.getDefaultToolkit().getImage("login_page_corner_drawing.png");
           setIconImage(icon);
        
     }
@@ -381,7 +381,7 @@ public class login_page extends javax.swing.JFrame {
     {
         
         
-      ImageIcon ii = new ImageIcon("/mnt/sda7/java_programming/login_form/src/login_form/login_page_Friends_drawing.png");
+      ImageIcon ii = new ImageIcon("login_page_Friends_drawing.png");
                           
       //Resize image to fit jlabel.
       Image img = ii.getImage().getScaledInstance(jLabel4.getWidth(), jLabel4.getHeight(), Image.SCALE_SMOOTH);
